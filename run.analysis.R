@@ -14,11 +14,11 @@ library(data.table)
         features <- select(tmp_features, -V1)
         ## Features to char list (Col Names for Data Sets)
         FEAT <- as.character(features[1:561,1,1])
-        ## Test Data
+        ## Read Test Data
         test_act <- read.table(paste(f_test, "y_test.txt", sep = "/"))
         test_sub <- read.table(paste(f_test, "subject_test.txt", sep = "/"))
         test_set <- read.table(paste(f_test, "x_test.txt", sep = "/"))
-        ## Train Data
+        ## Read Train Data
         train_act <- read.table(paste(f_train, "y_train.txt", sep = "/"))
         train_sub <- read.table(paste(f_train, "subject_train.txt", sep = "/"))
         train_set <- read.table(paste(f_train, "x_train.txt", sep = "/"))
