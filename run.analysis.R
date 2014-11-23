@@ -2,6 +2,7 @@
 ##Package Install
 library(dplyr)
 library(plyr)
+library(data.table)
 
         ## Folder Locations
         f_MAIN <- c("C:/Users/iAmCrafty/Documents/R/UCI HAR Dataset/")
@@ -73,5 +74,8 @@ library(plyr)
 
         ## Write File.txt to R Folder
         write.table(FINAL, file = "~/R/run.analysis.txt", row.name=FALSE)
+        codebook <- data.frame(cbind(1:86,col_names))
+        colnames(codebook) <- c("Column", "Feature")
+        write.table(codebook, file = "~/R/codebook.md", row.name=FALSE)
 
         
