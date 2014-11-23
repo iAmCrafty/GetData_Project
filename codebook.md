@@ -1,3 +1,9 @@
+
+
+
+
+
+Extracted Feature Columns
 "Column" "Feature"
 "1" "tBodyAcc-mean()-X"
 "2" "tBodyAcc-mean()-Y"
