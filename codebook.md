@@ -1,9 +1,7 @@
+Feature Selection 
+=================
+Using the grep(): to extract Feautures with "mean" or "std" in the Variable Name returned this list of features.
 
-
-
-
-
-Extracted Feature Columns
 "Column" "Feature"
 "1" "tBodyAcc-mean()-X"
 "2" "tBodyAcc-mean()-Y"
@@ -91,3 +89,6 @@ Extracted Feature Columns
 "84" "angle(X,gravityMean)"
 "85" "angle(Y,gravityMean)"
 "86" "angle(Z,gravityMean)"
+
+
+
